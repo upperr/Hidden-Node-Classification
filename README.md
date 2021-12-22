@@ -24,9 +24,9 @@ All datasets used in our paper are available for download:
 
 ## Example
 
-'''
+```
 python train.py --dataset reddit --epochs 100 --encoder 128_64 --decoder 50
-'''
+```
 
 They are available at [BaiduYun link (code: grcu)](https://pan.baidu.com/s/1pBV6svzp-uQuSuyx5F2joQ). Unzip the package at the root directory.
 
