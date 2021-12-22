@@ -6,16 +6,14 @@ Identifying hidden nodes in social networks is a critical issue in security-rela
 
 ## Requirements
 
-* python>=3.7
-* networkx==1.11
-* numpy==1.19.5
-* sklearn==0.0
-* tensorflow==2.2.0
-
-## Example
-python train.py --dataset reddit --epochs 100 --encoder 128_64 --decoder 50
+* python >= 3.7
+* networkx == 1.11
+* numpy == 1.19.5
+* sklearn == 0.0
+* tensorflow == 2.2.0
 
 ## Datasets
+
 All datasets used in our paper are available for download:
 
 * Reddit
@@ -23,6 +21,12 @@ All datasets used in our paper are available for download:
 * Flickr
 * Deezer
 * ... (more to be added)
+
+## Example
+
+'''
+python train.py --dataset reddit --epochs 100 --encoder 128_64 --decoder 50
+'''
 
 They are available at [BaiduYun link (code: grcu)](https://pan.baidu.com/s/1pBV6svzp-uQuSuyx5F2joQ). Unzip the package at the root directory.
 
