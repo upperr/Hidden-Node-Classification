@@ -15,6 +15,8 @@ from minibatch import NodeMinibatchIterator
 
 # Settings
 tf.compat.v1.disable_v2_behavior()
+tf.random.set_seed(1234)
+np.random.seed(1234)
 flags = tf.compat.v1.app.flags
 FLAGS = flags.FLAGS
 
